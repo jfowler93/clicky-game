@@ -1,5 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
+import Card from "./components/Card";
+import Nav from "./components/Nav";
+import Wrapper from "./components/Wrapper"
+import Title from "./components/Title"
+import Cards from "./cards.json"
 import './App.css';
 
 function App() {
