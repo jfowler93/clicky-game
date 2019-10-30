@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "character": "Charlie",
+        "image": "./images/charlie.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "character": "Couch Frank",
+        "image": "./images/couch-frank.png",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "character": "Cricket",
+        "image": "./images/cricket.jpg",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "character": "Dayman",
+        "image": "./images/dayman.jpg",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "character": "Dee",
+        "image": "./images/deejpg",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "character": "Dennis",
+        "image": "./images/dennis.jpg",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "character": "Frank",
+        "image": "./images/frank.png",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "character": "Greenman",
+        "image": "./images/Greenman.jpg",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "character": "Liam McPoyle",
+        "image": "./images/liam.jpg",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "character": "Mac",
+        "image": "./images/mac.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "character": "Nightman",
+        "image": "./images/nightman.jpg",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "character": "Ongo",
+        "image": "./images/ongo.jpg",
+        "clicked": false
+    }
+]
