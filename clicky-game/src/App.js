@@ -3,7 +3,7 @@ import Card from "./components/Card";
 import Nav from "./components/Nav";
 import Wrapper from "./components/Wrapper"
 import Title from "./components/Title"
-import cards from "./cards.json"
+import people from "./cards.json"
 import './App.css';
 
 function shuffleCards(array) {
@@ -16,7 +16,7 @@ function shuffleCards(array) {
 
 class App extends Component {
   state = {
-    cards,
+    people,
     currentScore: 0,
     highScore: 0,
     message: "",
@@ -52,8 +52,8 @@ class App extends Component {
   };
 
   handleShuffle = () => {
-    let shuffledCards = shuffleCards(cards);
-    this.setState({cards: shuffledCards});
+    let shuffledCards = shuffleCards(people);
+    this.setState({people: shuffledCards});
   };
 
   render() {
@@ -69,15 +69,15 @@ class App extends Component {
         <Title>
           Test Your Memory! Click an image to earn points. If you click an image more than once, you lose!
         </Title>
-        {this.state.cards.map(card => (
+        {this.state.people.map(card => (
           <Card
-          key={card.id}
+          key={people.id}
           handleClick={this.handleClick}
           handleIncrement={this.handleIncrement}
           handleReset={this.handleReset}
           handleShuffle={this.handleShuffle}
-          id={card.id}
-          image={card.image}
+          id={people.id}
+          image={people.image}
           />
         ))}
       </Wrapper>

@@ -2,7 +2,7 @@
     {
         "id": 1,
         "character": "Charlie",
-        "image": "./images/charlie.jpeg",
+        "image": "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiKoe6iqMXlAhVRUK0KHTgdBW4QjRx6BAgBEAQ&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fbe_hood88%2F5466125952&psig=AOvVaw1NIf8QGBZfKmW-9UEAmLik&ust=1572570629530866",
         "clicked": false
     },
     {
