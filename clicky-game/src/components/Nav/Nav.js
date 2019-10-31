@@ -4,7 +4,7 @@ import "./Nav.css";
 const Nav = props => (
     <nav>
         <ul>
-            <li className="brand animated wobble">
+            <li id="title">
                 <span className = "header">{props.title}</span>
             </li>
 

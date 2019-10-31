@@ -69,7 +69,7 @@ class App extends Component {
         <Title>
           Test Your Memory! Click an image to earn points. If you click an image more than once, you lose!
         </Title>
-        {this.state.people.map(card => (
+        {this.state.people.map(people => (
           <Card
           key={people.id}
           handleClick={this.handleClick}
